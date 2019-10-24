@@ -13,7 +13,7 @@ namespace AlgorithmTest
             Console.WriteLine("Hi");
             Console.WriteLine("야생");
             Console.WriteLine("야생마 권용백");
-
+            Console.WriteLine("hi");
         }
     }
 }
