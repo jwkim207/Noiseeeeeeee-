@@ -10,7 +10,7 @@ namespace AlgorithmTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi");
+          
         }
     }
 }
