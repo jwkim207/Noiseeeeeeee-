@@ -14,6 +14,7 @@ namespace AlgorithmTest
             Console.WriteLine("야생");
             Console.WriteLine("야생마 권용백");
             Console.WriteLine("hi");
+            Console.WriteLine("히어로즈 승리한다");
         }
     }
 }
