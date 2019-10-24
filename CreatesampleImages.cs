@@ -20,6 +20,7 @@ namespace OpenCVConsoleApp
             int width = 2256;
             int height = 2608;
             int cnt = 0;
+            //しししし
 
             for(int i = start_y; i < src.Height - height; i+=height)
             {
