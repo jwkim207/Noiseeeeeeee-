@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenCvSharp;
-
+using System.IO;
 
 namespace Tiled_image_correction
 {
@@ -74,7 +74,7 @@ namespace Tiled_image_correction
 
         static void Main(string[] args)
         {
-            Mat src = Cv2.ImRead("./samples2/1.bmp");
+            Mat src = Cv2.ImRead("./samples2/209.bmp");
             Mat gray = new Mat(src.Size(), MatType.CV_8UC1);
             Mat binary = new Mat(src.Size(), MatType.CV_8UC1);
             Mat dst = src.Clone();
